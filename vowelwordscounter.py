@@ -1,0 +1,7 @@
+variables = input("Enter a word: ")
+print(variables.count("a"))
+print(variables.count("e"))
+print(variables.count("i"))
+print(variables.count("o"))
+print(variables.count("u"))
+print("total vowels are", variables.count("a") + variables.count("e") + variables.count("i") + variables.count("o") + variables.count("u"))
